@@ -1,0 +1,34 @@
+header {
+    background-color:#ffffff;
+    border-bottom: 1px solid #bdbdbd;
+    height: 107px;
+    width: 100%;
+}
+
+.logo {
+    background-image: url('../Images/logo-no-background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 140px;
+    float: right;
+    margin-top: 20px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.search-input {
+    padding: 5px 30px 5px 10px;
+    border: 2px solid #ec750d;
+    border-radius: 5px;
+    width: 200px;
+    width: 600px;
+    height: 50px;
+    border-radius: 15px;
+}
