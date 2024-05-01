@@ -1,16 +1,18 @@
 body{
     margin: 0;
     padding: 0;
-    color:  #484848;
+    /* color:  #484848; */
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
     background-color: #ffffff;
 }
 
+
+
 .add-room {
-    margin: 50px;
+    margin: 10px;
     position: fixed;
     right: 20px;
-    border: none;
     background-color: transparent;
+    border: none;
 }
