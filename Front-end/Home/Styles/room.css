@@ -1,0 +1,129 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.messages {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.sender {
+    font-weight: bold;
+    color: #333;
+}
+
+.input {
+    margin-top: 20px;
+}
+
+.input input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.input button {
+    width: 70px;
+    padding: 10px;
+    border: none;
+    background-color:  #ec750d;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.input button:hover {
+    background-color:  #ec750dc8;
+} */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.messages {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.message {
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.sent .bubble {
+    background-color: #ec750d6d;
+    color: #fff;
+    border-radius: 10px 10px 0 10px;
+    padding: 10px;
+    max-width: 80%;
+    float: right;
+}
+
+.received .bubble {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 10px 10px 10px 0;
+    float: left;
+}
+
+.sender {
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.input {
+    margin-top: 20px;
+}
+
+.input input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.input button {
+    width: 70px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.input button:hover {
+    background-color: #0056b3;
+}
