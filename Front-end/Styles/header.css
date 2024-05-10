@@ -1,0 +1,47 @@
+header {
+    background-color:#ffffff;
+    border-bottom: 1px solid #bdbdbd;
+    height: 107px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.logo {
+    background-image: url('../Images/logo-no-background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 100px;
+    margin-top: 7px;
+}
+
+.search {
+    background-color: #ec750d;
+    background-image: url('../Images/search_FILL0_wght400_GRAD0_opsz24.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 30px
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.search-input {
+    padding: 5px 30px 5px 10px;
+    border: 2px solid #7574749e;
+    border-radius: 5px;
+    width: 200px;
+    width: 600px;
+    height: 50px;
+    border-radius: 15px;
+}
