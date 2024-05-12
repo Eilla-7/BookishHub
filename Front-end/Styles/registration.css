@@ -58,3 +58,10 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #ec750dc9;
 }
+
+
+#R-link {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color from its parent */
+    /* Add more styles as needed */
+  }

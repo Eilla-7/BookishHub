@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="../Styles/profile.css">
+</head>
+<body>
+    <header>
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <div class="cover-photo"></div>
+            <div class="profile-picture"></div>
+            <div class="profile-info">
+                <h1>User's Name</h1>
+                <p>Bio or Tagline</p>
+                <button>Edit Profile</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Profile Tabs or Sections -->
+        <div class="profile-tabs">
+            <button class="tab" onclick="openTab('overview')">Overview</button>
+            <button class="tab" onclick="openTab('activity')">Activity</button>
+            <button class="tab" onclick="openTab('favorites')">Favorites</button>
+            <button class="tab" onclick="openTab('settings')">Settings</button>
+        </div>
+        <div id="overview" class="tab-content">
+            <!-- Overview Section -->
+            <h2>Overview</h2>
+            <!-- Display general user information -->
+        </div>
+        <div id="activity" class="tab-content">
+            <!-- Activity Section -->
+            <h2>Activity</h2>
+            <!-- Display user's recent activity -->
+        </div>
+        <div id="favorites" class="tab-content">
+            <!-- Favorites Section -->
+            <h2>Favorites</h2>
+            <!-- Display user's favorite books, authors, or rooms -->
+        </div>
+        <div id="settings" class="tab-content">
+            <!-- Settings Section -->
+            <h2>Settings</h2>
+            <!-- Display user's profile settings -->
+        </div>
+    </main>
+    <script src="../Scripts/profile.js"></script>
+</body>
+</html>

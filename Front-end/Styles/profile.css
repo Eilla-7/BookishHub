@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+}
+
+/* Profile Header Styles */
+.profile-header {
+    background-color: #ec750d; /* Primary color */
+    color: #fff; /* White text color */
+    padding: 20px;
+}
+
+.cover-photo {
+    height: 200px; /* Adjust height as needed */
+    background-color: #ccc; /* Placeholder color */
+}
+
+.profile-picture {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background-color: #666; /* Placeholder color */
+    border-radius: 50%;
+}
+
+.profile-info {
+    margin-top: 20px;
+}
+
+/* Profile Tabs Styles */
+.profile-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color: #fff; /* White background */
+    color: #ec750d; /* Primary color text */
+    border: none;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #f2f2f2; /* Light gray hover background */
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .profile-header {
+        padding: 10px;
+    }
+
+    .cover-photo {
+        height: 150px;
+    }
+
+    .profile-picture {
+        width: 80px;
+        height: 80px;
+    }
+}
