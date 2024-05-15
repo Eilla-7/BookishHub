@@ -1,4 +1,7 @@
-Bookish Hub was designed to allow all book readers to find the suitable community to practice their passion in reading and discussing the books they have read.
+# **Bookish Hub**
+
+**Bookish Hub was designed to allow all book readers to find the suitable community to practice their passion in reading and discussing the books they have read**
+
 Contributing:
 Meman Awad: back end developer
 Eilaf Adil: front end developer
